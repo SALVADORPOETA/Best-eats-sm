@@ -44,7 +44,7 @@ const Food = () => {
             {/* Filter Price */}
             <div>
                 <p className='font-bold text-gray-700'>Filter Price</p>
-                <div className='flex justify-between max-w-[390px] w-full'>
+                <div className='flex justify-between flex-wrap'>
                     <button onClick={() => setFoods(data)} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Any</button>
                     <button onClick={() => filterPrice('$')} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$</button>
                     <button onClick={() => filterPrice('$$')} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>$$</button>
